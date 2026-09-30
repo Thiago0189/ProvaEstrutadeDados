@@ -1,4 +1,4 @@
-package model;
+package br.edu.aesa.model;
 
 public class product {
     private int id;

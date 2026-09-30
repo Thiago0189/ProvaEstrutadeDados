@@ -1,8 +1,9 @@
-package service;
+package br.edu.aesa.service;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
-import model.product;
+
+import br.edu.aesa.model.product;
 
 public class productService {
     private Map<Integer, product> list = new LinkedHashMap<>();
