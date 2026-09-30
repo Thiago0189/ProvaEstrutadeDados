@@ -111,7 +111,7 @@ public class app {
                             if (updated == true) {
                                 System.out.println("Produto atualizado");
                             } else {
-                                System.out.println("erro ao atualizar Id ja utilizado");
+                                System.out.println("erro ao atualizar, Id ja utilizado");
                                 scanner.nextLine();
                                 scanner.nextLine();
                             }
