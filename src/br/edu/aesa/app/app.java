@@ -44,6 +44,13 @@ public class app {
                         System.out.println("Descrição para o produto");
                         String description = scanner.nextLine();
 
+                        if (name == null || name.trim().isEmpty() || description == null
+                                || description.trim().isEmpty()) {
+                            System.out.println("Você deve preencher os campos com informações corretamente.");
+                            wait(2);
+                            break;
+
+                        }
                         product newproduct = new product(key, name, description);
                         boolean registered = service.canRegister(newproduct);
 
@@ -107,6 +114,12 @@ public class app {
                             System.out.print("Nova Descrição: ");
                             String newDescription = scanner.nextLine();
 
+                            if (newName == null || newName.trim().isEmpty() || newDescription == null
+                                    || newDescription.trim().isEmpty()) {
+                                System.out.println("Você deve preencher os campos com informações corretamente.");
+                                wait(2);
+                                break;
+                            }
                             boolean updated = service.updateProduct(oldId, newKey, newName, newDescription);
                             if (updated == true) {
                                 System.out.println("Produto atualizado");
