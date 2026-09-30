@@ -1,6 +1,8 @@
 # Prova Estrutura de Dados
 # Sistema de Gerenciamento de Produtos (CRUD em Java)
 
+Link do video:  https://drive.google.com/file/d/1cwHqkHhE09dXQZoUmsT6V_q6SwRm-HM5/view?usp=sharing
+
 Um sistema de linha de comandos (CLI) desenvolvido em **Java** para o gerenciamento de produtos, focado em boas práticas de programação, separação de responsabilidades e eficiência de desempenho através de estruturas de dados avançadas.
 
 ---
